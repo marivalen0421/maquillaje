@@ -8,6 +8,9 @@ body {
 
 /* Estilos para el título y el texto con efecto */
 x-sign {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     display: block;
     text-align: center;
     margin-top: 20px;
@@ -36,7 +39,8 @@ h2 {
 }
 
 .precio {
-    font-family: "Anton", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
     font-style: normal;
 }
 
@@ -61,8 +65,10 @@ x-sign.tienda {
     --color2: orangered;
     --color3: red;
     --color4: magenta;
-    font-family: 'Bad Script', cursive;
-    /* Cambia la fuente si lo prefieres */
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
 }
 
 /* Efecto de "Come back soon" */
@@ -72,7 +78,9 @@ x-sign:nth-of-type(2) {
     --color2: orangered;
     --color3: red;
     --color4: magenta;
-    font-family: 'Bad Script', cursive;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Resto de estilos para productos */
